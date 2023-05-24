@@ -9,7 +9,7 @@ This is a POS tagger created with PyTorch, using litlat-bert for embeddings. The
 
 ## Overview
 
-The model analyzes text and predicts all linguistic feature values for each word in the input. It utilizes litlat-bert for generating word embeddings and employs PyTorch for model training and prediction.
+The model analyzes text and predicts all linguistic feature values for each word in the input. It utilizes litlat-bert for generating word embeddings. The word embeddings get passed through an additional BiLSTM layer into linear classification layers. PyTorch is employed for model training and prediction.
 
 ## Usage
 
